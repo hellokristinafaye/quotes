@@ -9,6 +9,8 @@ Technologies Used:
 - Custom Favicon
 - Font Awesome
 - REST API
+- https://heropatterns.com/
+- 
 
 Features:
 
