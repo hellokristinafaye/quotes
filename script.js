@@ -1,1 +1,11 @@
-console.log("hello there")
+let apiQuotes = [];
+
+async function getQuotes() {
+    const apiURL = 'https://type.fit/api/quotes';
+    try {
+        const response = await fetch(apiURL);
+        apiQuotes = await response.json();
+    } catch (error) {
+        // Catch Error Here
+    }
+}
