@@ -67,6 +67,12 @@ button:active {
     transform: translate(0, 0.3rem);
     box-shadow: none;
 }
+.blue-sky-btn:hover {
+    color: #38a1f3;
+}
+.fa-bluesky {
+    font-size: 1.5rem;
+} 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .quote-container {
